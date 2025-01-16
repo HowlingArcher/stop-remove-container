@@ -11,7 +11,7 @@ Then you need to make the script an executable. You can do that like this:
 ```sudo chmod +x ./stop-remove-docker-container.sh```
 
 After that you can copy it over to the /usr/local/bin folder like this:
-```sudo cp ./stop-remove-docker-container.sh /usr/local/stop-remove-container```
+```sudo cp ./stop-remove-docker-container.sh /usr/local/bin/stop-remove-container```
 
 And now you can use the `stop-remove-container` command globally in your system!
 

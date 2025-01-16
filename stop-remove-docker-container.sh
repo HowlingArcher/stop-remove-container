@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
     read -p "Please enter a docker container ID: " dockerID
 else
     # Use the provided name
-    dockerId="$1"
+    dockerID="$1"
 fi
 
 echo "Stopping docker container: $dockerID"
